@@ -1,10 +1,10 @@
 package com.sunayanpradhan.digitalinkrecognition
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 
 class account : AppCompatActivity() {
@@ -15,9 +15,9 @@ class account : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_account)
 
-        auth = FirebaseAuth.getInstance()
-        var btn = findViewById<Button>(R.id.logout)
-        var text = findViewById<TextView>(R.id.userdetails)
+
+        val btnLogout = findViewById<Button>(R.id.logout)
+        val textUserDetails = findViewById<TextView>(R.id.userdetails)
         val user = auth.currentUser
 
         if (user == null) {
@@ -25,10 +25,10 @@ class account : AppCompatActivity() {
             startActivity(intent)
             finish()
         } else {
-            text.text = user.email
+            textUserDetails.text = user.email
         }
 
-        btn.setOnClickListener {
+        btnLogout.setOnClickListener {
             FirebaseAuth.getInstance().signOut()
             val intent = Intent(this, Register::class.java)
             startActivity(intent)

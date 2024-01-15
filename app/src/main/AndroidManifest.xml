@@ -15,47 +15,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DigitalInkRecognition"
         tools:targetApi="31">
-        <activity
-            android:name=".account"
-            android:exported="true" />
+
         <activity
             android:name=".Login"
             android:exported="true"
-            android:theme="@style/MaterialAlertDialog.Material3">
+            android:theme="@style/Theme.AppCompat">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".Register"
             android:exported="true"
-            android:theme="@style/MaterialAlertDialog.Material3">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:theme="@style/Theme.AppCompat">
         </activity>
+        <activity
+            android:name=".account"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat" />
+
         <activity
             android:name=".SplashActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <activity
             android:name=".MainActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
 
             <meta-data
                 android:name="android.app.lib_name"
