@@ -14,20 +14,14 @@ NoteMute is an Android application that leverages Google ML Kit to convert handw
 
 Here are some screenshots showcasing NoteMute's features:
 
-![Handwritten Note Recognition](path/to/handwritten_note_recognition.png)
-*Handwritten Note Recognition*
+<img src="./images/NoteInput.jpg" alt="Handwritten Note Recognition" width="200">
 
-![Language Selection](path/to/language_selection.png)
-*Language Selection*
+<img src="./images/language.jpg" alt="Language Selection" width="200">
 
-![Text-to-Speech](path/to/text_to_speech.png)
-*Text-to-Speech*
+<img src="./images/Search.jpg" alt="Search Functionality" width="200">
 
-![Search Functionality](path/to/search_functionality.png)
-*Search Functionality*
+<img src="./images/Favs.jpg" alt="Favorite Notes" width="200">
 
-![Favorite Notes](path/to/favorite_notes.png)
-*Favorite Notes*
 
 
 ## Installation
