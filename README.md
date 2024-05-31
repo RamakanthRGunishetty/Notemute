@@ -15,13 +15,13 @@ NoteMute is an Android application that leverages Google ML Kit to convert handw
 Here are some screenshots showcasing NoteMute's features:
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="./images/NoteInput.jpg" alt="Handwritten Note Recognition" width="200" style="border: 1px solid #ddd; border-radius: 4px; margin-bottom: 10px;">
+  <img src="./images/NoteInput.jpg" alt="Handwritten Note Recognition" width="200" style="border: 1px solid #000; border-radius: 4px; margin-bottom: 10px;">
   
-  <img src="./images/language.jpg" alt="Language Selection" width="200" style="border: 1px solid #ddd; border-radius: 4px; margin-bottom: 10px;">
+  <img src="./images/language.jpg" alt="Language Selection" width="200" style="border: 1px solid #000; border-radius: 4px; margin-bottom: 10px;">
   
-  <img src="./images/Search.jpg" alt="Search Functionality" width="200" style="border: 1px solid #ddd; border-radius: 4px; margin-bottom: 10px;">
+  <img src="./images/Search.jpg" alt="Search Functionality" width="200" style="border: 1px solid #000; border-radius: 4px; margin-bottom: 10px;">
   
-  <img src="./images/Favs.jpg" alt="Favorite Notes" width="200" style="border: 1px solid #ddd; border-radius: 4px; margin-bottom: 10px;">
+  <img src="./images/Favs.jpg" alt="Favorite Notes" width="200" style="border: 1px solid #000; border-radius: 4px; margin-bottom: 10px;">
 </div>
 
 
