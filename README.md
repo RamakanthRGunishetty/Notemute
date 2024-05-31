@@ -38,7 +38,7 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/notemute.git
+   git clone https://github.com/RamakanthRGunishetty/notemute.git
    cd notemute
    ```
 
